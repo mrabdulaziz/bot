@@ -582,7 +582,7 @@ def handle_text(message):
         elif message.text == '✍️Operatorga yozing':
             log(message)
             markup = telebot.types.InlineKeyboardMarkup()
-            btn_my_site = telebot.types.InlineKeyboardButton(text='Чат Бот', url="t.me/mypizzaorderbot")
+            btn_my_site = telebot.types.InlineKeyboardButton(text='Chat Bot', url="t.me/@mkb_chat_bot")
             markup.add(btn_my_site)
             mybot.send_message(message.chat.id, "Tugmani bosib chat botimizga o'ting.", reply_markup=markup)
         elif message.text == '💵Valyuta kurslari':
@@ -767,7 +767,7 @@ def handle_text(message):
         elif message.text == '✍️Операторга ёзинг':
             log(message)
             markup = telebot.types.InlineKeyboardMarkup()
-            btn_my_site = telebot.types.InlineKeyboardButton(text='Чат Бот', url="t.me/mypizzaorderbot")
+            btn_my_site = telebot.types.InlineKeyboardButton(text='Чат Бот', url="t.me/mkb_chat_bot")
             markup.add(btn_my_site)
             mybot.send_message(message.chat.id, "Тугмани босиб бизнинг чат ботимзга ўтинг.", reply_markup=markup)
         elif message.text == "Интерактив хизматлар":
@@ -1036,7 +1036,7 @@ def handle_text(message):
             elif message.text == '✍️Написать оператору':
                 log(message)
                 markup = telebot.types.InlineKeyboardMarkup()
-                btn_my_site = telebot.types.InlineKeyboardButton(text='Чат Бот', url="t.me/mypizzaorderbot")
+                btn_my_site = telebot.types.InlineKeyboardButton(text='Чат Бот', url="t.me/mkb_chat_bot")
                 markup.add(btn_my_site)
                 mybot.send_message(message.chat.id, "Нажми на кнопку и перейди на наш чат бот.", reply_markup=markup)
             elif message.text == "Головной офис":

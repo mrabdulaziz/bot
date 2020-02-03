@@ -1,4 +1,4 @@
-token = '568328540:AAHQDMqSvmPA_zOpHucKVhQ5HONrtFkcGYY'
+token = '949769056:AAH_B6_EfnpsqMNv-LMczYKcLtl-Wp9CtBA'
 
 #####################################################
 img_mbank = 'https://imbt.ga/2lF1DfUT5d'
@@ -7,7 +7,7 @@ img_internet_bank = 'https://imbt.ga/CAiuSbJ9U0'
 img_plastik_karta= 'https://imbt.ga/rd354HkQpR'
 img_pul_otkazma = 'https://imbt.ga/S4SRaivmzK'
 ######################################################
-start_message = """<b>Assalomu aleykum! "Mikrokreditbank" ATB rasmiy telegram boti sizning xizmatingizda.</b>
+start_message = """<b>Assalomu alaykum! "Mikrokreditbank" ATB rasmiy telegram boti sizning xizmatingizda.</b>
 Iltimos, kerakli tilni tanlang.
 
 
