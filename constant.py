@@ -1,4 +1,4 @@
-token = '949769056:AAH_B6_EfnpsqMNv-LMczYKcLtl-Wp9CtBA'
+token = '  '
 
 #####################################################
 img_mbank = 'https://imbt.ga/2lF1DfUT5d'
