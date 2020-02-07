@@ -601,48 +601,64 @@ def handle_text(message):
             mybot.send_message(message.chat.id, locations.toshkent_uz)
             mybot.send_location(message.from_user.id, 41.297546, 69.204514)
 
+
         elif message.text == "Toshkent":
             log(message)
-            mybot.send_message(message.chat.id, locations.toshkent1_uz)
+            mybot.send_message(message.chat.id, locations.toshkentsh_uz)
+            mybot.send_location(message.from_user.id, 41.361258, 69.242641)
         elif message.text == "Toshkent viloyati":
             log(message)
             mybot.send_message(message.chat.id, locations.toshkent1_uz)
+            mybot.send_location(message.from_user.id, 41.2624798, 69.2228512)
         elif message.text == "Andijon":
             log(message)
             mybot.send_message(message.chat.id, locations.andijon1_uz)
+            mybot.send_location(message.from_user.id, 40.752063, 72.341996)
         elif message.text == "Farg`ona":
             log(message)
             mybot.send_message(message.chat.id, locations.fargona1_uz)
+            mybot.send_location(message.from_user.id, 40.3757406, 71.809204)
         elif message.text == "Namangan":
             log(message)
             mybot.send_message(message.chat.id, locations.namangan1_uz)
+            mybot.send_location(message.from_user.id, 40.996209, 71.612875)
         elif message.text == "Buxoro":
             log(message)
             mybot.send_message(message.chat.id, locations.buxoro1_uz)
+            mybot.send_location(message.from_user.id, 39.744180, 64.519187)
+
         elif message.text == "Jizzax":
             log(message)
             mybot.send_message(message.chat.id, locations.jizzax1_uz)
+            mybot.send_location(message.from_user.id, 40.114156, 67.846125)
         elif message.text == "Qashqadaryo":
             log(message)
             mybot.send_message(message.chat.id, locations.qarshi1_uz)
+            mybot.send_location(message.from_user.id, 38.840984, 65.777014)
         elif message.text == "Navoiy":
             log(message)
             mybot.send_message(message.chat.id, locations.navoiy1_uz)
+            mybot.send_location(message.from_user.id, 40.100387, 65.364838)
         elif message.text == "Samarqand":
             log(message)
             mybot.send_message(message.chat.id, locations.samarqand1_uz)
+            mybot.send_location(message.from_user.id, 39.6503102, 66.9510076)
         elif message.text == "Sirdaryo":
             log(message)
             mybot.send_message(message.chat.id, locations.sirdaryo1_uz)
+            mybot.send_location(message.from_user.id, 40.504731,68.778095)
         elif message.text == "Xorazm":
             log(message)
             mybot.send_message(message.chat.id, locations.xorazm1_uz)
+            mybot.send_location(message.from_user.id, 41.549364, 60.633994)
         elif message.text == "Qoraqalpog`iston":
             log(message)
             mybot.send_message(message.chat.id, locations.qoraqalpogiston1_uz)
+            mybot.send_location(message.from_user.id, 42.460163, 59.615756)
         elif message.text == "Surxondaryo":
             log(message)
             mybot.send_message(message.chat.id, locations.surxondaryo1_uz)
+            mybot.send_location(message.from_user.id, 37.2387655, 67.280288)
 
 
 
@@ -817,46 +833,60 @@ def handle_text(message):
 
         elif message.text == "Тошкент":
             log(message)
-            mybot.send_message(message.chat.id, locations.toshkent1_kr)
+            mybot.send_message(message.chat.id, locations.toshkentsh_kr)
+            mybot.send_location(message.from_user.id, 41.361258, 69.242641)
         elif message.text == "Тошкент вилояти":
             log(message)
             mybot.send_message(message.chat.id, locations.toshkent1_kr)
+            mybot.send_location(message.from_user.id, 41.2624798, 69.2228512)
         elif message.text == "Андижон":
             log(message)
             mybot.send_message(message.chat.id, locations.andijon1_kr)
+            mybot.send_location(message.from_user.id, 40.752063, 72.341996)
         elif message.text == "Фаргона":
             log(message)
             mybot.send_message(message.chat.id, locations.fargona1_kr)
+            mybot.send_location(message.from_user.id, 40.3757406, 71.809204)
         elif message.text == "Наманган":
             log(message)
             mybot.send_message(message.chat.id, locations.namangan1_kr)
+            mybot.send_location(message.from_user.id, 40.996209, 71.612875)
         elif message.text == "Бухоро":
             log(message)
             mybot.send_message(message.chat.id, locations.buxoro1_kr)
+            mybot.send_location(message.from_user.id, 39.744180, 64.519187)
         elif message.text == "Джиззах":
             log(message)
             mybot.send_message(message.chat.id, locations.jizzax1_kr)
+            mybot.send_location(message.from_user.id, 40.114156, 67.846125)
         elif message.text == "Қашқадарё":
             log(message)
             mybot.send_message(message.chat.id, locations.qarshi1_kr)
+            mybot.send_location(message.from_user.id, 38.840984, 65.777014)
         elif message.text == "Навои":
             log(message)
             mybot.send_message(message.chat.id, locations.navoiy1_kr)
+            mybot.send_location(message.from_user.id, 40.100387, 65.364838)
         elif message.text == "Самарқанд":
             log(message)
             mybot.send_message(message.chat.id, locations.samarqand1_kr)
+            mybot.send_location(message.from_user.id, 39.6503102, 66.9510076)
         elif message.text == "Сирдарьё":
             log(message)
             mybot.send_message(message.chat.id, locations.sirdaryo1_kr)
+            mybot.send_location(message.from_user.id, 40.504731, 68.778095)
         elif message.text == "Хоразм":
             log(message)
             mybot.send_message(message.chat.id, locations.xorazm1_kr)
+            mybot.send_location(message.from_user.id, 41.549364, 60.633994)
         elif message.text == "Қорақолпогистон":
             log(message)
             mybot.send_message(message.chat.id, locations.qoraqalpogiston1_kr)
+            mybot.send_location(message.from_user.id, 42.460163, 59.615756)
         elif message.text == "Сурхандарьё":
             log(message)
             mybot.send_message(message.chat.id, locations.surxondaryo1_kr)
+            mybot.send_location(message.from_user.id, 37.2387655, 67.280288)
         elif message.text == "💳Пластик карталар":
             # language("ru")
             log(message)
@@ -1076,46 +1106,60 @@ def handle_text(message):
                                    reply_markup=markup)
             elif message.text == "Ташкент":
                 log(message)
-                mybot.send_message(message.chat.id, locations.toshkent1_ru)
+                mybot.send_message(message.chat.id, locations.toshkentsh_ru)
+                mybot.send_location(message.from_user.id, 41.361258, 69.242641)
             elif message.text == "Ташкентская область":
                 log(message)
                 mybot.send_message(message.chat.id, locations.toshkent1_ru)
+                mybot.send_location(message.from_user.id, 41.2624798, 69.2228512)
             elif message.text == "Андижан":
                 log(message)
                 mybot.send_message(message.chat.id, locations.andijon1_ru)
+                mybot.send_location(message.from_user.id, 40.752063, 72.341996)
             elif message.text == "Фергана":
                 log(message)
                 mybot.send_message(message.chat.id, locations.fargona1_ru)
+                mybot.send_location(message.from_user.id, 40.3757406, 71.809204)
             elif message.text == "Наманган":
                 log(message)
                 mybot.send_message(message.chat.id, locations.namangan1_ru)
+                mybot.send_location(message.from_user.id, 40.996209, 71.612875)
             elif message.text == "Бухара":
                 log(message)
                 mybot.send_message(message.chat.id, locations.buxoro1_ru)
+                mybot.send_location(message.from_user.id, 39.744180, 64.519187)
             elif message.text == "Жиззах":
                 log(message)
                 mybot.send_message(message.chat.id, locations.jizzax1_ru)
+                mybot.send_location(message.from_user.id, 40.114156, 67.846125)
             elif message.text == "Кашкадарья":
                 log(message)
                 mybot.send_message(message.chat.id, locations.qarshi1_ru)
+                mybot.send_location(message.from_user.id, 38.840984, 65.777014)
             elif message.text == "Наваи":
                 log(message)
                 mybot.send_message(message.chat.id, locations.navoiy1_ru)
+                mybot.send_location(message.from_user.id, 40.100387, 65.364838)
             elif message.text == "Самарканд":
                 log(message)
                 mybot.send_message(message.chat.id, locations.samarqand1_ru)
+                mybot.send_location(message.from_user.id, 39.6503102, 66.9510076)
             elif message.text == "Сирдарья":
                 log(message)
                 mybot.send_message(message.chat.id, locations.sirdaryo1_ru)
+                mybot.send_location(message.from_user.id, 40.504731, 68.778095)
             elif message.text == "Хорезм":
                 log(message)
                 mybot.send_message(message.chat.id, locations.xorazm1_ru)
+                mybot.send_location(message.from_user.id, 41.549364, 60.633994)
             elif message.text == "Каракалпакистан":
                 log(message)
                 mybot.send_message(message.chat.id, locations.qoraqalpogiston1_ru)
+                mybot.send_location(message.from_user.id, 42.460163, 59.615756)
             elif message.text == "Сурхандарья":
                 log(message)
                 mybot.send_message(message.chat.id, locations.surxondaryo1_ru)
+                mybot.send_location(message.from_user.id, 37.2387655, 67.280288)
 
             elif message.text == "ПАО «Сбербанк»":
                 log(message)
