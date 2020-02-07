@@ -307,7 +307,35 @@ toshkent_kr = """
 Телефон: (71)202-12-12     
 e-mail: 00433@mkb.uz
 
+
 """
+toshkentsh_uz="""Toshkent shahar filiali  
+
+MFO: 1147
+Manzil: Toshkent shahar, 
+Olmazor tumani Qorasaroy ko'chasi 316 uy,
+Pochta Indeksi: 
+Telefon:  
+e-mail: 1147@mkb.uz
+"""
+toshkentsh_kr="""Тошкент шахар филиали  
+
+МФО: 1147
+Манзил: Тошкент шахар, 
+Олмозор тумани Қорасарой кўчаси 316 уй,
+Почта Индекси: 
+Телефон:  
+e-mail: 1147@mkb.uz
+"""
+toshkentsh_ru="""
+Ташкентский городской филиал
+Aдрес:  г. Ташкент,
+       Олмазарский район, ул.Корасарой 316
+почтовый индекс: 
+телефон:  
+e-mail: 1147@mkb.uz
+"""
+
 toshkent1_uz = """
 Toshkent viloyat filiali  
 
