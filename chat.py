@@ -1,7 +1,7 @@
 import telebot
 import time
-bot = telebot.TeleBot('1050860657:AAEL6nX9XGT7chXdj8tsLEIepsIug8yuFZo')
-CHAT = '-1001284687192'
+bot = telebot.TeleBot('')
+CHAT = ''
 @bot.message_handler(commands=['start'])
 def start_handler(message):
     bot.send_message(message.from_user.id, 'Напишите нам вопрос или свои пожелания', )
